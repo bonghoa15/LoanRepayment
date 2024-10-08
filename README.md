@@ -1,7 +1,7 @@
 **This repository hosts a comprehensive machine learning project designed to predict the likelihood of successful loan repayment by borrowers**
 
 # Project Goals and Objectives
-==========================================================================================================
+=============================================================================================
 
 * Data analysis: Loan status & exploration Dataset of payment & underwriting 
 * Develop predictive model loan status in different lending process stages
@@ -9,7 +9,7 @@
 This project aims to leverage machine learning techniques to predict the probability of borrowers successfully repaying their loans. Accurate loan repayment prediction is vital for financial institutions to make informed lending decisions, reduce risks and promote responsible lending practices. 
 
 ## Data analysis & Conclusion
-------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
 
 In this project, I leverage datasets: 
 * loan : which includes attributes of succesfful loan application
@@ -24,7 +24,7 @@ Exploratory Data Analysis (EDA): was conducted to explore relationships between 
 
 
 ## Predictive modelling 
-------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
 
 Utilize Lightgbm model for multi-class prediction. Techniques using for robusting training process:
 * Handle imbalanced class using undersampling technique
@@ -40,18 +40,6 @@ Design 3 versions of predictive model.Each model predict in a stage of lending p
 * V3 - After 1st payment: Remove withdrawn/cancel loan application. Design model for binary classificatoin: Repayment succesfully or default loan repayment 
 
 ## Conclusions
-------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
 Multi-class model version 2 tends to balance between the model performance and practicality. Adding more features might bring stronger predictive power and making it a reliable tool for financial institutions to make well-informed decisions when auto approving loans application. 
-
-notebooks
-   |-- EDA: notebook to explore datasests
-   |-- prediction: notebooks to train ML
-data : input dataset
-viz : auto EDA visualization
-   |-- version1: visualization from features using for model version 1
-   |-- version2: visualization from features using for model version 2
-   |-- version3: visualization from features using for model version 3
-model : output from MLs
-   |-- final_lgb_model_optuna*: tuning optuna 
-   |-- lgb_*.pkl: pretrained models
 
