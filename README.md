@@ -1,4 +1,4 @@
-# MoneyLion Loan Repayment Prediction
+# Loan Repayment Prediction
 
 This repository hosts a comprehensive **machine learning project** designed to predict the likelihood of successful loan repayment by borrowers.  
 Accurate loan repayment prediction is vital for financial institutions to make informed lending decisions, reduce risk, and promote responsible lending practices.
